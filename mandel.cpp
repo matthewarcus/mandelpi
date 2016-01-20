@@ -676,7 +676,7 @@ void setup(GPUData *gpudata, uint32_t gpubase, int nqpus, int mb) {
 
 // A general purpose driver function
 int main(int argc, char *argv[]) {
-  int nqpus = 1;
+  int nqpus = 12;
   int exec_direct = false;
   argc--; argv++;
   if (argc > 0) {
