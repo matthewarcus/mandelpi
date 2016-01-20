@@ -5,7 +5,7 @@ An exercise in GPU programming for the Raspberry Pi 2.
 
 To run:
 
-$ sudo ./mandel [<num QPUs>]
+$ sudo ./mandel [&lt;num QPUs&gt;]
 
 sudo is necessary to access the GPU & mailbox control registers.
 
